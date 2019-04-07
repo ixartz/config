@@ -1,0 +1,22 @@
+{
+    "extensions": [
+        "blanu.vscode-styled-jsx",
+        "burkeholland.simple-react-snippets",
+        "CoenraadS.bracket-pair-colorizer",
+        "dbaeumer.vscode-eslint",
+        "dcasella.monokai-plusplus",
+        "eamodio.gitlens",
+        "ecmel.vscode-html-css",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "golf1052.code-sync",
+        "IBM.output-colorizer",
+        "letrieu.expand-region",
+        "msjsdiag.debugger-for-chrome",
+        "Orta.vscode-jest",
+        "sashaweiss.block-travel",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-french",
+        "vscode-icons-team.vscode-icons"
+    ]
+}

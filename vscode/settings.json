@@ -1,0 +1,47 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.renderControlCharacters": true,
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": true,
+    "editor.renderIndentGuides": true,
+    "workbench.colorTheme": "Monokai++",
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.insertFinalNewline": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.gitExplorer.files.layout": "tree",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "breadcrumbs.enabled": true,
+    "cSpell.language": "en,fr",
+    "editor.tabCompletion": "on",
+    "gitlens.views.repositories.files.layout": "tree",
+    "search.showLineNumbers": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.cursorSmoothCaretAnimation": false,
+    "cSpell.userWords": [
+        "deserialize",
+        "devtools",
+        "extension",
+        "redux",
+        "serverless"
+    ]
+}

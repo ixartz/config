@@ -1,0 +1,54 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "metrics"
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "3e8a281e-e905-59ec-0cff-0c5509fa95c6"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "markdown-preview-plus":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  nuclide:
+    "nuclide-diagnostics-ui":
+      showDiagnosticTraces: true
+    "nuclide-home":
+      showHome: false
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  welcome:
+    showOnStartup: false

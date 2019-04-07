@@ -1,0 +1,20 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 13,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"theme": "Cola.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

@@ -1,0 +1,5 @@
+> -cur_console:d:C:\Users\Ixi powershell.exe
+
+-cur_console:bns50V -cur_console:d:C:\Users\Ixi "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+
+-cur_console:bns50H -cur_console:d:C:\Users\Ixi "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"

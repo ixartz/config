@@ -1,0 +1,15 @@
+packages: [
+  "expand-selection-to-quotes"
+  "git-time-machine"
+  "highlight-selected"
+  "language-babel"
+  "linter-write-good"
+  "markdown-preview-plus"
+  "minimap"
+  "minimap-cursorline"
+  "minimap-find-and-replace"
+  "minimap-highlight-selected"
+  "move-by-paragraph"
+  "nuclide"
+  "package-sync"
+]
