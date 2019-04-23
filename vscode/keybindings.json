@@ -11,20 +11,8 @@
     "when": "editorTextFocus && editorHasSelection"
   },
   {
-    "key": "cmd+alt+shift+left",
-    "command": "workbench.action.focusPreviousGroup"
-  },
-  {
-    "key": "cmd+alt+shift+right",
-    "command": "workbench.action.focusNextGroup"
-  },
-  {
     "key": "ctrl+d",
     "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "ctrl+alt+cmd+space",
-    "command": "workbench.action.terminal.focus"
   },
   {
     "key": "ctrl+right",
@@ -126,5 +114,15 @@
   {
     "key": "shift+cmd+i",
     "command": "extension.jumpy-word"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  { "key": "ctrl+`", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   }
 ]
