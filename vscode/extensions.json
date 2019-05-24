@@ -18,6 +18,7 @@
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-french",
         "vscode-icons-team.vscode-icons",
-        "wmaurer.vscode-jumpy"
+        "wmaurer.vscode-jumpy",
+        "mikestead.dotenv"
     ]
 }
