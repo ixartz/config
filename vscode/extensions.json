@@ -11,14 +11,15 @@
         "formulahendry.auto-rename-tag",
         "golf1052.code-sync",
         "IBM.output-colorizer",
+        "mikestead.dotenv",
         "ms-vscode.vscode-typescript-tslint-plugin",
         "msjsdiag.debugger-for-chrome",
         "Orta.vscode-jest",
         "sashaweiss.block-travel",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-french",
+        "VisualStudioExptTeam.vscodeintellicode",
         "vscode-icons-team.vscode-icons",
-        "wmaurer.vscode-jumpy",
-        "mikestead.dotenv"
+        "wmaurer.vscode-jumpy"
     ]
 }

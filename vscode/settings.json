@@ -38,11 +38,29 @@
     "workbench.editor.highlightModifiedTabs": true,
     "editor.cursorSmoothCaretAnimation": false,
     "cSpell.userWords": [
+        "Webhook",
+        "aimelyne",
+        "amzn",
         "deserialize",
         "devtools",
+        "dialogflow",
         "extension",
+        "forin",
+        "googleassistant",
+        "gulpfile",
+        "inferrable",
+        "isnan",
+        "jovo",
+        "parens",
+        "quickbooks",
         "redux",
-        "serverless"
+        "relink",
+        "serverless",
+        "tscw",
+        "tsstyle"
+    ],
+    "cSpell.ignorePaths": [
+        "yarn.lock"
     ],
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -63,5 +81,8 @@
     "workbench.sideBar.location": "left",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "debug.internalConsoleOptions": "neverOpen"
 }
