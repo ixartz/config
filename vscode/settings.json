@@ -44,6 +44,7 @@
         "amzn",
         "appcenter",
         "coinbase",
+        "cryptocurrencies",
         "cryptocurrency",
         "deserialize",
         "devtools",
@@ -55,6 +56,7 @@
         "googleassistant",
         "gulpfile",
         "inferrable",
+        "iphone",
         "isnan",
         "jovo",
         "parens",
@@ -92,6 +94,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "todo-tree.excludeGlobs": [
-        "/Users/ixi/Library/Caches"
+        "/Users/ixi/Library/Caches",
+        "node_modules"
     ]
 }
