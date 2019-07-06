@@ -46,24 +46,29 @@
         "coinbase",
         "cryptocurrencies",
         "cryptocurrency",
+        "db",
         "deserialize",
         "devtools",
         "dialogflow",
         "dynamodb",
         "exchange",
         "extension",
+        "filedb",
         "forin",
+        "gmail",
         "googleassistant",
         "gulpfile",
         "inferrable",
         "iphone",
         "isnan",
+        "ixartz",
         "jovo",
         "parens",
         "price",
         "quickbooks",
         "redux",
         "relink",
+        "sendgrid",
         "serverless",
         "tscw",
         "tsstyle"
@@ -96,5 +101,8 @@
     "todo-tree.excludeGlobs": [
         "/Users/ixi/Library/Caches",
         "node_modules"
-    ]
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.external.osxExec": "iTerm.app",
+    "explorer.autoReveal": false
 }
