@@ -1,4 +1,6 @@
 #! /bin/zsh
+# Disable shared history zsh
+
 # Load zsh_completion
 fpath=(/usr/local/share/zsh-completions $fpath)
 

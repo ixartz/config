@@ -43,6 +43,7 @@
         "amazonaws",
         "amzn",
         "appcenter",
+        "audioplayer",
         "coinbase",
         "cryptocurrencies",
         "cryptocurrency",
@@ -64,6 +65,7 @@
         "ixartz",
         "jovo",
         "parens",
+        "playbackcontroller",
         "price",
         "quickbooks",
         "redux",
@@ -104,5 +106,6 @@
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.external.osxExec": "iTerm.app",
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "editor.gotoLocation.multiple": "gotoAndPeek"
 }
