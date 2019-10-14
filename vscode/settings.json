@@ -21,7 +21,6 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.gitExplorer.files.layout": "tree",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -47,6 +46,7 @@
         "coinbase",
         "cryptocurrencies",
         "cryptocurrency",
+        "datasources",
         "db",
         "deserialize",
         "devtools",
@@ -82,12 +82,15 @@
     "workbench.sideBar.location": "left",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "todo-tree.excludeGlobs": [
-        "/Users/ixi/Library/Caches",
-        "node_modules"
-    ],
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.external.osxExec": "iTerm.app",
     "explorer.autoReveal": false,
-    "editor.gotoLocation.multiple": "gotoAndPeek"
+    "editor.gotoLocation.multiple": "gotoAndPeek",
+    "todo-tree.filtering.excludeGlobs": [
+        "/Users/ixi/Library/Caches",
+        "node_modules"
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
