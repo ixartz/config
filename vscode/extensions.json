@@ -9,6 +9,7 @@
         "ecmel.vscode-html-css",
         "esbenp.prettier-vscode",
         "formulahendry.auto-rename-tag",
+        "golf1052.code-sync",
         "Gruntfuggly.todo-tree",
         "IBM.output-colorizer",
         "mikestead.dotenv",
@@ -21,7 +22,6 @@
         "VisualStudioExptTeam.vscodeintellicode",
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
-        "wmaurer.vscode-jumpy",
-        "golf1052.code-sync"
+        "wmaurer.vscode-jumpy"
     ]
 }
