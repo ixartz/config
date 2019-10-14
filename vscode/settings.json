@@ -39,6 +39,7 @@
     "cSpell.userWords": [
         "Webhook",
         "aimelyne",
+        "airtable",
         "amazonaws",
         "amzn",
         "appcenter",
@@ -89,8 +90,5 @@
     "todo-tree.filtering.excludeGlobs": [
         "/Users/ixi/Library/Caches",
         "node_modules"
-    ],
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    ]
 }
