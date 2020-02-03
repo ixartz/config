@@ -90,5 +90,6 @@
     "todo-tree.filtering.excludeGlobs": [
         "/Users/ixi/Library/Caches",
         "node_modules"
-    ]
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
