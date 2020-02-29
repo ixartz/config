@@ -91,5 +91,6 @@
         "/Users/ixi/Library/Caches",
         "node_modules"
     ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "todo-tree.tree.showScanModeButton": false
 }
