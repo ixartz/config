@@ -92,5 +92,7 @@
         "node_modules"
     ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "todo-tree.tree.showScanModeButton": false
+    "todo-tree.tree.showScanModeButton": false,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
