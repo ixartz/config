@@ -93,6 +93,5 @@
     ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "todo-tree.tree.showScanModeButton": false,
-    "debug.showBreakpointsInOverviewRuler": true,
-    "editor.multiCursorModifier": "ctrlCmd"
+    "debug.showBreakpointsInOverviewRuler": true
 }
