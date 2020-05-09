@@ -41,7 +41,6 @@ brew install zsh-completions
 
 # Nvm installation
 brew install nvm
-brew install yarn --without-node
 # Do not install node
 
 # Ruby installation
@@ -79,3 +78,5 @@ apm install --packages-file atom_packages.txt
 
 # Install the following application: Google Chrome, Firefox, Opera,  Xcode, iTerm, Spectacle
 # Optional: FileZilla, VirtualBox, Skype, VLC, Battle.net, Steam, Archive utility, Android File Transfert, Spotify, Microsoft office, VMware
+
+# brew cask install: notion, docker, postman
