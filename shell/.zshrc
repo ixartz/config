@@ -101,3 +101,11 @@ alias gp='git push'
 
 alias showHiddenFiles='defaults write com.apple.finder AppleShowAllFiles YES && killall Finder'
 alias hideHiddenFiles='defaults write com.apple.finder AppleShowAllFiles NO && killall Finder'
+
+alias clearDNS='sudo killall -HUP mDNSResponder'
+
+alias blueOn='blueutil -p 1'
+alias blueOff='blueutil -p 0'
+alias wifiStatus='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I'
+alias wifiOn='networksetup -setairportpower en0 on'
+alias wifiOff='networksetup -setairportpower en0 off'

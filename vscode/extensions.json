@@ -22,6 +22,7 @@
         "VisualStudioExptTeam.vscodeintellicode",
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
-        "wmaurer.vscode-jumpy"
+        "wmaurer.vscode-jumpy",
+        "Zignd.html-css-class-completion"
     ]
 }

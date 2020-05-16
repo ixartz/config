@@ -86,7 +86,8 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.external.osxExec": "iTerm.app",
     "explorer.autoReveal": false,
-    "editor.gotoLocation.multiple": "gotoAndPeek",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
     "todo-tree.filtering.excludeGlobs": [
         "/Users/ixi/Library/Caches",
         "node_modules"
