@@ -33,3 +33,4 @@
 
 [core]
     excludesfile = ~/config/git/.gitignore
+    pager = diff-so-fancy | less --tabs=2 -RX --pattern '^(Date|added|deleted|modified): '

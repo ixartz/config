@@ -24,6 +24,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 git clone https://github.com/powerline/fonts.git
 # Install meslo LG M Regular for Powerline 12pt
 
+# Install diff-so-fancy
+git clone https://github.com/so-fancy/diff-so-fancy.git
+
 # Setting up Vim preferences
 git clone https://github.com/ixartz/vim-airline ~/.vim/pack/dist/start/vim-airline
 
