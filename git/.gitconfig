@@ -13,9 +13,11 @@
     dic = diff --cached
     merge = merge --no-ff
     current = rev-parse --abbrev-ref HEAD
+    res = reset --hard
     p = push
     c = !git current
-    com = commit -a -m
+    com = commit -m
+    coma = commit -a -m
     dw = diff --ignore-space-at-eol -b -w --ignore-blank-lines
 
 [user]
@@ -31,6 +33,9 @@
 [pull]
     default = current
 
+[pager]
+    diff = diff-so-fancy | less --tabs=2 -RFX --pattern '^(Date|added|deleted|modified): '
+    log = less --tabs=2 -RFX --pattern 'commit '
+
 [core]
     excludesfile = ~/config/git/.gitignore
-    pager = diff-so-fancy | less --tabs=2 -RX --pattern '^(Date|added|deleted|modified): '

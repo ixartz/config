@@ -15,6 +15,7 @@
         "mikestead.dotenv",
         "msjsdiag.debugger-for-chrome",
         "Orta.vscode-jest",
+        "pflannery.vscode-versionlens",
         "rohit-gohri.format-code-action",
         "sashaweiss.block-travel",
         "streetsidesoftware.code-spell-checker",
@@ -22,7 +23,6 @@
         "VisualStudioExptTeam.vscodeintellicode",
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
-        "wmaurer.vscode-jumpy",
-        "Zignd.html-css-class-completion"
+        "wmaurer.vscode-jumpy"
     ]
 }
