@@ -1,16 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
-    "key": "ctrl+w",
-    "command": "expand_region",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+w",
-    "command": "undo_expand_region",
-    "when": "editorTextFocus && editorHasSelection"
-  },
-  {
     "key": "ctrl+d",
     "command": "workbench.action.splitEditor"
   },
