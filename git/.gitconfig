@@ -10,7 +10,8 @@
     co = checkout
     d = diff
     dpull = diff @{1}..
-    dic = diff --cached
+    dc = diff --cached
+    dcw = diff --cached --ignore-space-at-eol -b -w --ignore-blank-lines
     merge = merge --no-ff
     current = rev-parse --abbrev-ref HEAD
     res = reset --hard
@@ -34,7 +35,7 @@
     default = current
 
 [pager]
-    diff = diff-so-fancy | less --tabs=2 -RFX --pattern '^(Date|added|deleted|modified): '
+    diff = diff-so-fancy | less --tabs=2 -RFX --pattern '^(Date|added|deleted|modified|renamed): '
     log = less --tabs=2 -RFX --pattern 'commit '
 
 [core]

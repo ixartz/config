@@ -95,5 +95,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "todo-tree.tree.showScanModeButton": false,
     "debug.showBreakpointsInOverviewRuler": true,
-    "eslint.alwaysShowStatus": true
+    "eslint.alwaysShowStatus": true,
+    "javascript.preferences.useAliasesForRenames": false,
+    "typescript.preferences.useAliasesForRenames": false
 }

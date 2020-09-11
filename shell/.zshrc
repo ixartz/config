@@ -71,6 +71,16 @@ qfind() {
     find . -type f -exec grep -l $1 {} \;
 }
 
+gcom() {
+    git com "$1"
+    git push
+}
+
+gcoma() {
+    git coma "$1"
+    git push
+}
+
 # Alias
 alias reload='source $HOME/.zshrc'
 
