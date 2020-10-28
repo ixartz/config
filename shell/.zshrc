@@ -8,11 +8,11 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Load diff-so-fancy
 export PATH="$HOME/config/diff-so-fancy:$PATH"
+
+# Load Homebrew command cli
+export PATH="/usr/local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -29,6 +29,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 plugins=(
   sudo
   web-search
+  zsh-autosuggestions
 )
 
 # Load needed source
@@ -50,6 +51,14 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Load scm breeze
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
+# Homebrew autocomplete
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 # Default application
 if [ -x "`which vim 2> /dev/null`" ]; then

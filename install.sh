@@ -20,6 +20,9 @@ cp ~/config/applications/Shortcuts.json ~/Library/Application\ Support/Spectacle
 # Install Oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # Install powerline font
 git clone https://github.com/powerline/fonts.git
 # Install meslo LG M Regular for Powerline 12pt
