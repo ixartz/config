@@ -90,6 +90,10 @@ gcoma() {
     git push
 }
 
+killPidFromPort() {
+    kill $(lsof -t -i:$1)
+}
+
 # Alias
 alias reload='source $HOME/.zshrc'
 
@@ -128,6 +132,8 @@ alias clearDNS='sudo killall -HUP mDNSResponder'
 
 alias blueOn='blueutil -p 1'
 alias blueOff='blueutil -p 0'
+alias blueDemonOff='sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport'
+alias blueDemonOn='sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport'
 alias wifiStatus='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I'
 alias wifiOn='networksetup -setairportpower en0 on'
 alias wifiOff='networksetup -setairportpower en0 off'

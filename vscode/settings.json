@@ -97,5 +97,7 @@
     "debug.showBreakpointsInOverviewRuler": true,
     "eslint.alwaysShowStatus": true,
     "javascript.preferences.useAliasesForRenames": false,
-    "typescript.preferences.useAliasesForRenames": false
+    "typescript.preferences.useAliasesForRenames": false,
+    "editor.accessibilitySupport": "off",
+    "editor.accessibilityPageSize": 1
 }
