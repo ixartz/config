@@ -7,11 +7,11 @@
         "dcasella.monokai-plusplus",
         "DigitalBrainstem.javascript-ejs-support",
         "eamodio.gitlens",
-        "ecmel.vscode-html-css",
         "esbenp.prettier-vscode",
         "formulahendry.code-runner",
         "golf1052.code-sync",
         "Gruntfuggly.todo-tree",
+        "humao.rest-client",
         "IBM.output-colorizer",
         "jock.svg",
         "mikestead.dotenv",
@@ -19,13 +19,13 @@
         "Orta.vscode-jest",
         "pflannery.vscode-versionlens",
         "quicktype.quicktype",
+        "rohit-gohri.format-code-action",
         "sashaweiss.block-travel",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-french",
         "VisualStudioExptTeam.vscodeintellicode",
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
-        "wmaurer.vscode-jumpy",
-        "Zignd.html-css-class-completion"
+        "wmaurer.vscode-jumpy"
     ]
 }
