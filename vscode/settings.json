@@ -99,5 +99,10 @@
     "javascript.preferences.useAliasesForRenames": false,
     "typescript.preferences.useAliasesForRenames": false,
     "editor.accessibilitySupport": "off",
-    "editor.accessibilityPageSize": 1
+    "editor.accessibilityPageSize": 1,
+    "explorer.compactFolders": false,
+    "askToolkit.showWelcomeScreen": false,
+    "ask.telemetryEnabled": "Disabled",
+    "rest-client.enableTelemetry": false,
+    "code-runner.enableAppInsights": false
 }

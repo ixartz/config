@@ -1,5 +1,6 @@
 {
     "extensions": [
+        "ask-toolkit.alexa-skills-kit-toolkit",
         "blanu.vscode-styled-jsx",
         "bradlc.vscode-tailwindcss",
         "CoenraadS.bracket-pair-colorizer",
