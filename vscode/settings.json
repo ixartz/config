@@ -104,5 +104,10 @@
     "askToolkit.showWelcomeScreen": false,
     "ask.telemetryEnabled": "Disabled",
     "rest-client.enableTelemetry": false,
-    "code-runner.enableAppInsights": false
+    "code-runner.enableAppInsights": false,
+    "errorLens.exclude": [
+        "Unknown word"
+    ],
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "editor.minimap.size": "fill"
 }
