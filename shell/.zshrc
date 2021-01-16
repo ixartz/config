@@ -30,6 +30,7 @@ plugins=(
   sudo
   web-search
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 # Load needed source
@@ -59,6 +60,8 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
 # Default application
 if [ -x "`which vim 2> /dev/null`" ]; then

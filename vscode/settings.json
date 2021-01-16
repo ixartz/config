@@ -109,5 +109,5 @@
         "Unknown word"
     ],
     "explorer.openEditors.sortOrder": "alphabetical",
-    "editor.minimap.size": "fill"
+    "editor.minimap.size": "fit"
 }
