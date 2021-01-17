@@ -62,6 +62,7 @@ if type brew &>/dev/null; then
 fi
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
+ZSH_AUTOSUGGEST_USE_ASYNC=true
 
 # Default application
 if [ -x "`which vim 2> /dev/null`" ]; then
