@@ -109,5 +109,7 @@
         "Unknown word"
     ],
     "explorer.openEditors.sortOrder": "alphabetical",
-    "editor.minimap.size": "fit"
+    "editor.minimap.size": "fit",
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true
 }
