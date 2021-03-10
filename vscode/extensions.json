@@ -14,7 +14,6 @@
         "formulahendry.code-runner",
         "GitHub.vscode-pull-request-github",
         "golf1052.code-sync",
-        "Gruntfuggly.todo-tree",
         "humao.rest-client",
         "IBM.output-colorizer",
         "jock.svg",
@@ -25,7 +24,6 @@
         "Orta.vscode-jest",
         "patbenatar.advanced-new-file",
         "pflannery.vscode-versionlens",
-        "quicktype.quicktype",
         "rohit-gohri.format-code-action",
         "sashaweiss.block-travel",
         "sburg.vscode-javascript-booster",
@@ -35,7 +33,6 @@
         "usernamehw.errorlens",
         "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight",
-        "wmaurer.vscode-jumpy",
         "Zignd.html-css-class-completion"
     ]
 }
