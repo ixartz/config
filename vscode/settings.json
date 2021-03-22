@@ -111,5 +111,7 @@
     "explorer.openEditors.sortOrder": "alphabetical",
     "editor.minimap.size": "fit",
     "workbench.editor.decorations.colors": true,
-    "workbench.editor.decorations.badges": true
+    "workbench.editor.decorations.badges": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation": "never"
 }
