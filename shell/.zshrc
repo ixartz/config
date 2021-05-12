@@ -97,13 +97,18 @@ qfind() {
     find . -type f -exec grep -l $1 {} \;
 }
 
+gfind() {
+    (cd ~/Project && rg $@)
+}
+
 gcom() {
     git com "$1"
     git push
 }
 
 gcoma() {
-    git coma "$1"
+    git add -A
+    git com "$1"
     git push
 }
 
