@@ -52,6 +52,9 @@ brew install zsh-completions
 brew install nvm
 # Do not install node
 
+# Grep recursively
+brew install ripgrep
+
 # Ruby installation
 brew install rbenv ruby-build
 
