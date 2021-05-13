@@ -98,7 +98,7 @@ qfind() {
 }
 
 gfind() {
-    (cd ~/Project && rg $@)
+    (cd ~/Project && rg -g '!{**/yarn.lock,**/package-lock.json}' $@)
 }
 
 gcom() {
