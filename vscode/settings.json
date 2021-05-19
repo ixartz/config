@@ -113,5 +113,9 @@
     "workbench.editor.decorations.colors": true,
     "workbench.editor.decorations.badges": true,
     "emmet.showAbbreviationSuggestions": false,
-    "emmet.showExpandedAbbreviation": "never"
+    "emmet.showExpandedAbbreviation": "never",
+    "terminal.integrated.tabs.enabled": true,
+    "typescript.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "html.autoClosingTags": false
 }
