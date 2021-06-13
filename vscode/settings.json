@@ -117,5 +117,6 @@
     "terminal.integrated.tabs.enabled": true,
     "typescript.autoClosingTags": false,
     "javascript.autoClosingTags": false,
-    "html.autoClosingTags": false
+    "html.autoClosingTags": false,
+    "workbench.startupEditor": "none"
 }
