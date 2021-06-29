@@ -92,7 +92,7 @@
         "/Users/ixi/Library/Caches",
         "node_modules"
     ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "todo-tree.tree.showScanModeButton": false,
     "debug.showBreakpointsInOverviewRuler": true,
     "eslint.alwaysShowStatus": true,
@@ -118,5 +118,6 @@
     "typescript.autoClosingTags": false,
     "javascript.autoClosingTags": false,
     "html.autoClosingTags": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.gotoLocation.multipleReferences": "goto"
 }
