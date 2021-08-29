@@ -80,5 +80,7 @@
     "html.autoClosingTags": false,
     "workbench.startupEditor": "none",
     "editor.gotoLocation.multipleReferences": "goto",
-    "cSpell.diagnosticLevel": "Hint"
+    "cSpell.diagnosticLevel": "Hint",
+    "workbench.editor.sharedViewState": true,
+    "git.openDiffOnClick": false
 }
