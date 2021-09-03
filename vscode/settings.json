@@ -48,11 +48,11 @@
     "explorer.autoReveal": false,
     "editor.gotoLocation.multipleDefinitions": "goto",
     "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "todo-tree.filtering.excludeGlobs": [
         "/Users/ixi/Library/Caches",
         "node_modules"
     ],
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "todo-tree.tree.showScanModeButton": false,
     "debug.showBreakpointsInOverviewRuler": true,
     "eslint.alwaysShowStatus": true,
@@ -82,5 +82,10 @@
     "editor.gotoLocation.multipleReferences": "goto",
     "cSpell.diagnosticLevel": "Hint",
     "workbench.editor.sharedViewState": true,
-    "git.openDiffOnClick": false
+    "git.openDiffOnClick": false,
+    "editor.bracketPairColorization.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "javascript.inlayHints.parameterNames.enabled": "literals",
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true
 }
