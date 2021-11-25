@@ -87,5 +87,8 @@
     "typescript.inlayHints.parameterNames.enabled": "literals",
     "javascript.inlayHints.parameterNames.enabled": "literals",
     "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "typescript.inlayHints.functionLikeReturnTypes.enabled": true
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "editor.suggest.preview": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.renderLineHighlight": "all"
 }
